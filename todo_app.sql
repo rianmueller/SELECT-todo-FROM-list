@@ -23,9 +23,8 @@ SET
 DEFAULT CURRENT_TIMESTAMP;
 
 INSERT INTO tasks
-    (title, description, created_at, updated_at, completed_at)
 VALUES
-    ('Study SQL', 'Complete this exercise', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, NULL);
+    (DEFAULT, 'Study SQL', 'Complete this exercise', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, NULL);
 
 INSERT INTO tasks
     (title, description)
